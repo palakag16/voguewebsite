@@ -1,0 +1,751 @@
+ .newtogglingclass{
+     display: none;
+ }
+ .toggleclass{
+     display: block;
+ }
+
+.mainblogdiv{
+    
+    z-index:500;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:auto;
+    padding:2.5rem 5rem;
+    border-bottom: 1px solid rgba(136, 127, 127, 0.3);
+  
+}
+
+.newimgtitle{
+    font-size: 0.9rem;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.sideimage{
+    width:50%;
+    /* background-color: coral; */
+}
+#imgleftbroad{
+    background-size: cover;
+    width:100%;
+    
+    
+}
+.sidedetails{
+    width:50%;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    padding-left:5rem;
+    
+    
+    
+}
+.newtagline{
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: "Benne";
+    font-weight: 500;
+    cursor:pointer;
+    line-height: 3rem;
+}
+.newtagline:hover{
+    border-bottom: none;
+}
+.newborder{
+    background-color:rgba(235, 27, 27, 0.7);
+    margin:1.8rem auto;
+    height:1.75px;
+    width:25%;
+}
+.smalltagline{
+    font-size: 0.9rem;
+    font-family: "Raleway";
+    font-weight: 600;
+    color:rgba(34, 33, 33,0.9)
+}
+.nameanddate{
+    display: flex;
+    flex-direction: column;
+    margin:2rem 0rem;
+
+}
+.nameanddate p {
+    font-size: 0.73rem;
+    color:rgba(34, 33, 33,0.7);
+    font-weight: 700;
+    line-height: 0.3rem;
+    letter-spacing: 2px;
+  
+}
+.newicons{
+    font-size:  2.5rem;
+    padding-left:2rem;
+   
+}
+#icon{
+    border:2px solid black;
+    border-radius: 50%;
+    margin:0rem 0.5rem;
+    
+}
+#icon:hover{
+    color:red;
+    border: 2px solid red
+}
+
+.mainblogcontent{
+    padding:0rem 8rem;
+    display: flex;
+    flex-direction: row;
+   
+  
+}
+.contentimage{
+    background-size: cover;
+    height:auto;
+    width:100%;
+}
+.contents{
+    width:55%;
+
+}
+.content{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:2rem 0rem;
+    word-spacing: 2px;
+}
+.imageinfotitle{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:rgba(12, 12, 12,0.7);
+    letter-spacing: 2px;
+    padding-top:3px;
+    padding-bottom:0rem;
+    
+}
+
+.ads{
+    width:45%;
+    
+    
+}
+.leftads{
+    width:70%;
+    position: sticky;
+    top:2%;
+    position: -webkit-sticky;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top:2rem;
+}
+
+.imagevideo{
+    width:100%;
+    height:12rem;
+   
+}
+.watch{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(29, 28, 28,0.6);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding:0.5rem 0rem;
+    width:100%;
+    border-top:2px solid black;
+}
+.videotitle{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    text-align: center;
+    padding:0.6rem 0rem;
+    border-bottom: 1.5px solid black;
+}
+.width75{
+    width:75%;
+}
+.mostpopular{
+    text-transform: capitalize;
+    padding:0.5rem 0rem;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    font-size: 1.3rem;
+    font-weight:500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+}
+.element1{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    padding:1rem 0rem;
+
+}
+.smallimg{
+    width:30%;
+}
+.smallimg img{
+    height:5rem;
+    width:100%;
+    background-size:cover;
+    background-position: top;
+}
+.itsinfo{
+    width:70%;
+    padding-left:1rem;
+    cursor:pointer;
+}
+.headingside{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:black;
+    opacity:0.7;
+    font-size: 0.7rem;
+    font-weight:600;
+
+}
+.paragraph{
+    font-size: 0.88rem;
+    font-family: Georgia;
+    padding-top:0.3rem;
+}
+.paragraph:hover{
+    text-decoration: 0.7px solid black underline;
+}
+.credit{
+    text-transform: uppercase;
+    color:black;
+    font-weight: 500;
+    opacity:0.8;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+}
+.getborder{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+.compofourmain{
+    padding:4rem 12rem;
+    display: grid;
+    
+    grid-template-columns: 44% 50%;
+    grid-gap: 2rem;
+    grid-auto-flow: column;
+    position: relative;
+
+    border-bottom: 0.001rem solid rgba(58, 56, 56,0.5);
+    
+   
+}
+.box2box3{
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+    grid-auto-flow: column;
+    position: relative;
+
+}
+ .box1{
+     position: relative;
+
+ }
+
+ .img{
+    background-size: cover;
+    background-position: center;
+     height:auto;
+     width:100%;
+ }
+ .boxtitle{
+     position: relative;
+     background-color:white;
+     top:-3.2rem;
+     width: 90%;
+     float: right;
+     padding:1.6rem;
+    
+ }
+ .cfourtitle{
+     text-transform: uppercase;
+     font-size: 0.85rem;
+     font-weight:500;
+     letter-spacing:1px;
+ }
+ .cfourtagline{
+     font-size:1.7rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .cfourborder{
+     height:0.1rem;
+     width:25%;
+     background-color:brown;
+     margin:0.6rem 0rem;
+ }
+ .cfourdateandname{
+     text-transform: uppercase;
+     font-size: 0.85rem;
+     color:black;
+     opacity:0.8;
+     letter-spacing: 1.5px;
+     font-weight:600;
+ }
+.img2c{
+    height:auto;
+    
+    width:100%;
+}
+.boxtitle2{
+    background-color: white;
+    padding:0.9rem;
+    width:90%;
+    float:right;
+    position: relative;
+    margin-top: -2rem;
+}
+.cfourtwotagline{
+    font-size: 1.2rem;
+    font-family: Georgia;
+    text-transform: capitalize;
+
+}
+.newrelativeclass{
+    position: relative;
+}
+.cfournewtitle{
+    font-size: 0px;
+    visibility: hidden;
+}
+.menusubmenu{
+    align-items: center;
+}
+.submenulist{
+    display:flex;
+    border-bottom: 0.01px solid rgba(145, 140, 140, 0.7);
+    border-top:0.01px solid rgba(145, 140, 140, 0.7);
+    opacity:0.7;
+    padding:0rem 4rem;
+
+}
+.submenulist li{
+    list-style: none;
+    padding:1rem;
+    
+}
+.submenulist li a{
+    color:black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.91;
+    letter-spacing: 1px;
+   
+}
+.submenulist li a:hover{
+    color:red;
+}
+.namesubname{
+    font-size: 3.3rem;
+    text-transform: capitalize;
+    font-family: 'georgia';
+    padding:2rem
+}
+
+
+.topmenu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7rem;
+}
+.mainmenutoggleone{
+    background-color: black;
+    opacity:0.9;
+    color:white;
+  
+}
+
+.fa-times-circle:hover{
+    color:red;
+}
+.vogueblack{
+    color:white;
+    font-size: 5rem;
+    font-family:Old Standard TT;
+    text-transform: uppercase;
+    letter-spacing:-10px;
+}
+.fa-times-circle{
+    font-size: 2rem;
+}
+.menuuls{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right:2rem;
+} 
+#submenulistgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap:2rem;
+}
+.menuuls li{
+    line-height: 3rem;
+    list-style: none;
+    cursor: pointer;
+
+}
+.menuuls li:hover{
+    color:red;
+}
+.menuulsbig{
+    font-size: 3rem;
+    font-family: 'Benne';
+    text-transform: capitalize;
+    line-height: 5rem;
+
+}
+.menuulsbig li{
+    list-style: none;
+    cursor: pointer;
+}
+.menuulsbig li:hover{
+    color:red;
+    padding-bottom: 23px;
+}
+.socialmediatags{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 2rem;
+}
+.connectwithvogue{
+    padding-left: 2rem 5rem;
+}
+.subscriptiontitle{
+    padding: 1rem;
+    width:100%;
+    
+}
+.subscribemain{
+    
+    text-align: center;
+    width:100%;
+    padding:5rem ;
+}
+
+.subscribetitle{
+    width:100%;
+}
+.subscribetitle div{
+    font-size: 3.5rem;
+    font-family: 'Benne';
+    font-weight: 600;
+}
+.subscribetitle p{
+    font-size: 1.2rem;
+   padding: 0rem 7rem;
+}
+.deliverytitle{
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Benne';
+    color:brown;
+    opacity:0.8;
+}
+.subscribegrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:0rem 10rem;
+    grid-gap:10rem;
+   
+}
+.subscribebox{
+    width:100%;
+    background-color:rgb(185, 170, 159);
+    padding-top:1.3rem ;
+    border-radius: 5px;
+}
+.subscribebox:hover{
+   box-shadow: 6px 8px 8px 8px rgb(199, 189, 182);
+}
+.magzinetitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.objectives ul li{
+    list-style: none;
+    padding:0.3rem 1rem ;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.objectives{
+    padding-top: 1rem;
+}
+.getthis{
+    text-align: center;
+    background-color: brown;
+    color:white;
+    border-radius: 10px;
+    padding:1rem 0rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.getthis:hover{
+    background-color:rgb(211, 49, 49);
+    color:white;
+}
+
+/* //tablet */
+@media (min-width: 700px) and (max-width: 800px){
+    .mainblogdiv{
+        padding: 3rem 2.2rem;}
+
+    .newimgtitle {
+        font-size: 0.7rem;}
+    
+  .newtagline {
+            font-size: 2.2rem;
+        line-height: 2.6rem;
+  }
+  .sidedetails{
+    padding-left: 2.2rem;
+   
+  }
+  .smalltagline {
+    font-size: 0.8rem;
+    word-spacing: 1px;
+    font-weight: 800;}
+  
+    .mainblogcontent{
+        flex-direction: column;
+        padding:0rem 2.5rem;
+    } 
+   .contents{
+    width:100%;  
+   }
+   .content {
+    
+    font-size: 1.15rem;}
+    .ads{
+        width:100%;
+        height:0rem;
+        visibility: hidden;
+    }
+    .compofourmain{
+        display: flex;
+        flex-direction: column;
+        padding:2rem 4rem;
+    }
+    .cfournewtitle{
+        font-size: 0px;
+        visibility: hidden;
+    }
+    .namesubname{
+        font-size: 3rem;
+    }
+    .submenulist{
+        padding:0rem 2rem;
+    }
+    .submenulist li {
+        padding: 0.6rem;
+    }
+    .submenulist li a{
+        font-size: 0.85rem;
+    }
+    .menuulsbig {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .topmenu{
+        padding: 3rem;
+    }
+    .connectwithvogue{
+        padding-left:3rem;
+        padding-bottom:2rem;
+    }
+}
+
+@media (min-width: 0) and (max-width: 500px){
+    .mainblogdiv{
+        flex-direction: column;
+        padding:1rem;
+    }
+    .sideimage{
+        order:2;
+        width:100%;
+    }
+    .sidedetails{
+        order:1;
+        width:100%;
+        padding-left:0rem;
+    }
+     .ads{
+        width:100%;
+        height:0rem;
+        visibility: hidden;
+    }
+    .newicons{
+        padding-bottom: 1rem;
+        padding-left:3rem;
+    }
+    .socialmediatags{
+        padding-left: 3.7rem;
+    }
+    .mainblogcontent {
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .contents{
+        width:100%;
+    }
+    .compofourmain{
+        display: flex;
+        flex-direction: column;
+        padding:2rem 1rem;
+    }
+    .boxtitle {
+        padding:0.7rem
+    }
+    .cfourtagline{
+        font-size: 1.2rem;
+    }
+    .cfourdateandname{
+        font-size: 0.7rem;
+    }
+    .box2box3{
+       display:flex;
+       flex-direction:column;
+       grid-gap:0rem;
+        
+
+    }
+    .newrelativeclass{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width:100%;
+    }
+    .img2c{
+        width:100%;
+        height:8rem;
+        background-size: cover;
+        background-position: center;
+    }
+    .newimgsrc{
+        width:45%;
+    }
+    .cfourtwotagline {
+        font-size: 1rem;}
+
+    .boxtitle2{
+    background-color: white;
+    padding:  1rem;
+    width:90%;
+    float:right;
+    position: relative;
+    margin-top:-1rem;}
+            
+      
+    .cfournewtitle{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    visibility: visible;
+    letter-spacing: 1px;
+    opacity: 0.7;}
+
+    .namesubname {
+    font-size: 2.5rem;}
+
+    .submenulist{
+    padding:0rem;
+    max-width: 100%;
+    overflow:scroll;
+    scroll-behavior: smooth;}
+
+    .submenulist::-webkit-scrollbar{
+    height:0px;
+    }
+      
+    .submenulist li {
+    padding: 0.7rem;}
+
+    .mobiletopmenu{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .topmenu{
+    padding:2rem;
+    padding-bottom: 1rem;
+    }
+
+    .vogueblack {
+    font-size: 3rem;
+     letter-spacing: -7px;}
+
+    .menuulsbig {
+     font-size: 2.5rem;}
+    
+    .connectwithvogue {
+        padding-left: 0rem;
+    }
+    .menuulsbig,.menuuls{
+        border-bottom: 1px solid white;
+        opacity:0.6;
+        margin-right: 0%;
+    }
+    ol, ul {
+        padding-left: 1rem;
+    }
+    
+
+}
+@media (min-width: 780px) and (max-width: 1030px){
+.compofourmain {
+    padding: 4rem 2rem;}
+}
+.newtagline{
+    font-size: 2.2rem;
+}
+.topmenu{
+    padding:2rem;
+}
+@media (min-width: 1440px) and (max-width: 2560px){
+    .topmenu{
+        padding:7rem;
+        padding-bottom:3rem;
+    }
+    .connectwithvogue{
+        padding:7rem;
+        
+    }
+    .menuuls li {
+        line-height: 4rem;}
+    .menuuls {
+    font-size: 1.3rem;}
+    .socialmediatags {
+        font-size: 1.5rem;}
+    .newicons {
+            font-size: 3.2rem;}
+}
